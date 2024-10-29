@@ -90,7 +90,7 @@ Please run this yourself to check for any updates on how to cite
 **paqueteR**.
 
 ``` r
-print(citation('paqueteR'), bibtex = TRUE)
+print(citation("paqueteR"), bibtex = TRUE)
 #> To cite package 'paqueteR' in publications use:
 #> 
 #>   GOrtiz-Lopez (2024). _paqueteR_. doi:10.18129/B9.bioc.paqueteR

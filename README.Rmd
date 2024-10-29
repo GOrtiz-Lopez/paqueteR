@@ -78,7 +78,7 @@ Below is the citation output from using `citation('paqueteR')` in R. Please
 run this yourself to check for any updates on how to cite __paqueteR__.
 
 ```{r 'citation', eval = requireNamespace('paqueteR')}
-print(citation('paqueteR'), bibtex = TRUE)
+print(citation("paqueteR"), bibtex = TRUE)
 ```
 
 Please note that the `paqueteR` was only made possible thanks to many other R and bioinformatics software authors, which are cited either in the vignettes and/or the paper(s) describing this package.
