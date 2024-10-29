@@ -9,6 +9,22 @@
 issues](https://img.shields.io/github/issues/GOrtiz-Lopez/paqueteR)](https://github.com/GOrtiz-Lopez/paqueteR/issues)
 [![GitHub
 pulls](https://img.shields.io/github/issues-pr/GOrtiz-Lopez/paqueteR)](https://github.com/GOrtiz-Lopez/paqueteR/pulls)
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![Bioc release
+status](http://www.bioconductor.org/shields/build/release/bioc/paqueteR.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/paqueteR)
+[![Bioc devel
+status](http://www.bioconductor.org/shields/build/devel/bioc/paqueteR.svg)](https://bioconductor.org/checkResults/devel/bioc-LATEST/paqueteR)
+[![Bioc downloads
+rank](https://bioconductor.org/shields/downloads/release/paqueteR.svg)](http://bioconductor.org/packages/stats/bioc/paqueteR/)
+[![Bioc
+support](https://bioconductor.org/shields/posts/paqueteR.svg)](https://support.bioconductor.org/tag/paqueteR)
+[![Bioc
+history](https://bioconductor.org/shields/years-in-bioc/paqueteR.svg)](https://bioconductor.org/packages/release/bioc/html/paqueteR.html#since)
+[![Bioc last
+commit](https://bioconductor.org/shields/lastcommit/devel/bioc/paqueteR.svg)](http://bioconductor.org/checkResults/devel/bioc-LATEST/paqueteR/)
+[![Bioc
+dependencies](https://bioconductor.org/shields/dependencies/release/paqueteR.svg)](https://bioconductor.org/packages/release/bioc/html/paqueteR.html#since)
 <!-- badges: end -->
 
 The goal of `paqueteR` is to …
@@ -75,21 +91,37 @@ Please run this yourself to check for any updates on how to cite
 
 ``` r
 print(citation('paqueteR'), bibtex = TRUE)
-#> Warning in citation("paqueteR"): could not determine year for 'paqueteR' from
-#> package DESCRIPTION file
 #> To cite package 'paqueteR' in publications use:
 #> 
-#>   Ortiz-López G (????). _paqueteR: Analisis en R de secuencias_. R
-#>   package version 0.0.0.9000,
-#>   <https://github.com/GOrtiz-Lopez/paqueteR>.
+#>   GOrtiz-Lopez (2024). _paqueteR_. doi:10.18129/B9.bioc.paqueteR
+#>   <https://doi.org/10.18129/B9.bioc.paqueteR>,
+#>   https://github.com/GOrtiz-Lopez/paqueteR/paqueteR - R package version
+#>   0.0.0.9000, <http://www.bioconductor.org/packages/paqueteR>.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Manual{,
-#>     title = {paqueteR: Analisis en R de secuencias},
-#>     author = {Guadalupe Ortiz-López},
-#>     note = {R package version 0.0.0.9000},
-#>     url = {https://github.com/GOrtiz-Lopez/paqueteR},
+#>     title = {paqueteR},
+#>     author = {{GOrtiz-Lopez}},
+#>     year = {2024},
+#>     url = {http://www.bioconductor.org/packages/paqueteR},
+#>     note = {https://github.com/GOrtiz-Lopez/paqueteR/paqueteR - R package version 0.0.0.9000},
+#>     doi = {10.18129/B9.bioc.paqueteR},
+#>   }
+#> 
+#>   GOrtiz-Lopez (2024). "paqueteR." _bioRxiv_. doi:10.1101/TODO
+#>   <https://doi.org/10.1101/TODO>,
+#>   <https://www.biorxiv.org/content/10.1101/TODO>.
+#> 
+#> A BibTeX entry for LaTeX users is
+#> 
+#>   @Article{,
+#>     title = {paqueteR},
+#>     author = {{GOrtiz-Lopez}},
+#>     year = {2024},
+#>     journal = {bioRxiv},
+#>     doi = {10.1101/TODO},
+#>     url = {https://www.biorxiv.org/content/10.1101/TODO},
 #>   }
 ```
 

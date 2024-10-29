@@ -18,6 +18,14 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 [![GitHub issues](https://img.shields.io/github/issues/GOrtiz-Lopez/paqueteR)](https://github.com/GOrtiz-Lopez/paqueteR/issues)
 [![GitHub pulls](https://img.shields.io/github/issues-pr/GOrtiz-Lopez/paqueteR)](https://github.com/GOrtiz-Lopez/paqueteR/pulls)
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![Bioc release status](http://www.bioconductor.org/shields/build/release/bioc/paqueteR.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/paqueteR)
+[![Bioc devel status](http://www.bioconductor.org/shields/build/devel/bioc/paqueteR.svg)](https://bioconductor.org/checkResults/devel/bioc-LATEST/paqueteR)
+[![Bioc downloads rank](https://bioconductor.org/shields/downloads/release/paqueteR.svg)](http://bioconductor.org/packages/stats/bioc/paqueteR/)
+[![Bioc support](https://bioconductor.org/shields/posts/paqueteR.svg)](https://support.bioconductor.org/tag/paqueteR)
+[![Bioc history](https://bioconductor.org/shields/years-in-bioc/paqueteR.svg)](https://bioconductor.org/packages/release/bioc/html/paqueteR.html#since)
+[![Bioc last commit](https://bioconductor.org/shields/lastcommit/devel/bioc/paqueteR.svg)](http://bioconductor.org/checkResults/devel/bioc-LATEST/paqueteR/)
+[![Bioc dependencies](https://bioconductor.org/shields/dependencies/release/paqueteR.svg)](https://bioconductor.org/packages/release/bioc/html/paqueteR.html#since)
 <!-- badges: end -->
 
 The goal of `paqueteR` is to ...
