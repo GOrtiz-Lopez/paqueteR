@@ -102,7 +102,7 @@ usethis::edit_git_config()
 biocthis::use_bioc_pkgdown_css()
 
 ## Install your package locally before building the documentation website
-devtools::install()
+devtools::install(paqueteR)
 
 ## ************************* WARNING START *********************************
 ## WARNING: git commit before running this next function!
